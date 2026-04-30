@@ -1,0 +1,8 @@
+{
+  "tasks": [
+    {"task_key": "bronze"},
+    {"task_key": "silver", "depends_on": ["bronze"]},
+    {"task_key": "gold", "depends_on": ["silver"]},
+    {"task_key": "quality", "depends_on": ["gold"]}
+  ]
+}
